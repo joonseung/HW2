@@ -1,8 +1,16 @@
-H1 {
+body {
+	color: black;
+	background-color: #000033;
+	font-size: 15pt;
+	font-family: arial,verdana,sans-serif;  
+	}
+
+	H1 {
    font-family: 'Times New Roman';
    font-size: 36px;
+   text-align:center;
    background: #ffffff;
-   color: maroon;
+   color: #ff9900
 }
 
 H2 {
@@ -47,7 +55,7 @@ div.resumeDiv {
     margin: 0 200px 10px 200px;
     padding: 20px;
 	border-style: double;
-	border-color: maroon;
+	border-color: #ff9900;
 } 
 
 div.name {
@@ -63,5 +71,17 @@ div.resumeFont {
    color: black;
 } 
 
+div.link {
+   font-family: arial,verdana,sans-serif;
+   font-size: 15px;
+   text-align:center;
+   background: #ffffff;
+   color: black;
+}
 
-	
+div.extra {
+   font-family: arial,verdana,sans-serif;
+   font-size: 15px;
+   background: #000033;
+   color: black;
+}   
